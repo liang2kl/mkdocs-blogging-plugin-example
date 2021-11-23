@@ -1,0 +1,2 @@
+mkdocs-material>=7.2.6
+mkdocs-blogging-plugin>=0.2.2

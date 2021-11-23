@@ -1,0 +1,15 @@
+site_name: Blog Example
+site_url: https://liang2kl.github.io/mkdocs-blogging-plugin-example/
+repo_url: https://github.com/liang2kl/mkdocs-blogging-plugin-example/
+edit_uri: ""
+
+theme:
+  name: 'material'
+
+plugins:
+  - blogging:
+      dirs:
+        - articles
+      template: override/blog-override.html
+
+copyright: Copyright &copy; 2021 Liang Yesheng
