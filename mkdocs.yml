@@ -11,5 +11,6 @@ plugins:
       dirs:
         - articles
       template: override/blog-override.html
+      locale: en
 
 copyright: Copyright &copy; 2021 Liang Yesheng
