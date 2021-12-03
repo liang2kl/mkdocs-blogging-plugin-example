@@ -7,9 +7,13 @@
     <div class="blog-override-post">
         <h3 class="blog-post-title">{{ title }}</h3>
         <div class="blog-post-extra">
-            <b>{{ page.meta["author"] if "author" in page.meta else "" }}</b>
+            <b>{{ page.meta["author"] + " · " if "author" in page.meta else "" }}</b>
             <span>{{ time }}</span>
         </div>
+        {% if show_tags and "tags" in page.meta %}
+            {% call render_tags(page.meta["tags"], index_url) %}
+            {% endcall %}
+        {% endif %}
         <p class="blog-post-description">{{ description }}</p>
     </div>
 </a>
