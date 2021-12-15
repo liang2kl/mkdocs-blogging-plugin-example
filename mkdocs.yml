@@ -11,7 +11,7 @@ plugins:
   - blogging:
       dirs:
         - articles
-      template: override/blog-override.html
+      template: override/custom-blog.html
       locale: en
       features:
         tags:
