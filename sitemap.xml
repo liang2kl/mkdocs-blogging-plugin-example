@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/</loc>
-         <lastmod>2021-12-03</lastmod>
+         <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/tags/</loc>
-         <lastmod>2021-12-03</lastmod>
+         <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/articles/article1/</loc>
-         <lastmod>2021-12-03</lastmod>
+         <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/articles/article2/</loc>
-         <lastmod>2021-12-03</lastmod>
+         <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/articles/article3/</loc>
-         <lastmod>2021-12-03</lastmod>
+         <lastmod>2021-12-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
