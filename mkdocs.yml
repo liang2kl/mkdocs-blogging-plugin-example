@@ -13,6 +13,8 @@ plugins:
         - articles
       template: override/custom-blog.html
       locale: en
+      time_format: '%d/%m/%y %H:%M:%S'
+      meta_time_format: '%Y-%m-%d %H:%M:%S'
       features:
         tags:
           index_page: tags.md
