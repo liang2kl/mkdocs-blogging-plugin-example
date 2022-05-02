@@ -2,27 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/</loc>
-         <lastmod>2021-12-24</lastmod>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/reviews/</loc>
+         <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/tags/</loc>
-         <lastmod>2021-12-24</lastmod>
+         <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/articles/article1/</loc>
-         <lastmod>2021-12-24</lastmod>
+         <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/blog/blog1/</loc>
+         <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/articles/article2/</loc>
-         <lastmod>2021-12-24</lastmod>
+         <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/blog/blog2/</loc>
+         <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/articles/article3/</loc>
-         <lastmod>2021-12-24</lastmod>
+         <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/blog/blog3/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/reviews/review1/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/reviews/review2/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://liang2kl.github.io/mkdocs-blogging-plugin-example/reviews/review3/</loc>
+         <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
