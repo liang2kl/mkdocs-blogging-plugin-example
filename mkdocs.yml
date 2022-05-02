@@ -9,10 +9,18 @@ theme:
 
 plugins:
   - blogging:
+      # GLOBAL CATEGORY: configs for {{ blog_content }}
       dirs:
-        - articles
+        - blog
       template: override/custom-blog.html
-      locale: en
+
+      # INDIVIDUAL CATEGORIES: configs for {{ blog_content name }}
+      categories:
+        - name: reviews
+          dirs:
+            - reviews
+   
+      # GLOBAL CONFIG: configs apply to all categories
       time_format: '%d/%m/%y %H:%M:%S'
       meta_time_format: '%Y-%m-%d %H:%M:%S'
       features:
