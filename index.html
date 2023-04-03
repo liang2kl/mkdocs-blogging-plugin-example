@@ -419,7 +419,6 @@
 
 
 
-
 <style>
     .md-typeset .blog-post:first-of-type h3 {
         margin-top: 0;
@@ -469,85 +468,12 @@
 </style>
 
 <style>
-    .blog-override-post {
-        padding: 30px 60px 30px 0;
-        margin-top: 10px;
-        border: 1px solid transparent;
-        cursor: default;
-    }
-
-    .blog-override-post .blog-post-title {
-        color: var(--md-typeset-a-color);
-        margin-top: 0;
-    }
-
-    .blog-post-description {
-        color: var(--md-typeset-color);
-    }
-
-    .blog-override-post:first-of-type {
-        margin-top: 0;
-    }
-
-    .blog-override-post:hover {
-        border: 1px solid #e8e8e877;
-        box-shadow: 3px 4px 10px #e8e8e8;
-    }
-
-    .blog-override-post,
-    .blog-override-post>* {
-        transition: all 0.3s ease-in-out;
-    }
-
-    .blog-override-post:hover>* {
-        transform: translateX(30px);
-    }
-
-    .blog-post-description,
-    .blog-post-extra {
-        opacity: 0.8;
-    }
-
-    .blog-override-post:hover .blog-post-description,
-    .blog-override-post:hover .blog-post-extra {
-        opacity: 1;
-    }
-
-    @media only screen and (max-width: 1000px) {
-        .blog-override-post,
-        .blog-override-post>* {
-            transition: none;
-        }
-
-        .blog-override-post:hover>* {
-            transform: none;
-        }
-
-        .blog-override-post {
-            padding: 30px 0 30px 0;
-            border: none;
-            cursor: pointer;
-        }
-
-        .blog-override-post:hover {
-            border: none;
-            box-shadow: none;
-        }
-
-        .blog-post-description,
-        .blog-post-extra,
-        .blog-override-post:hover .blog-post-description,
-        .blog-override-post:hover .blog-post-extra {
-            opacity: 1;
-        }
-    }
-</style>
-
-<style>
     .md-typeset .blog-post-description {
         margin-bottom: 0;
     }
 </style>
+
+
 
 
 
@@ -609,106 +535,115 @@
                     
                 
                 
-                <a href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/blog/blog1/">
-    <div class="blog-override-post">
-        <h3 class="blog-post-title">Blog 1</h3>
-        <div class="blog-post-extra">
-            <b>Liang Yesheng · </b>
-            <span>23/11/21 05:01:56</span>
-        </div>
+                <div class="blog-post">
+    <h3 class="blog-post-title">
+        <a class="link" href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/blog/blog1/">Blog 1</a>
+    </h3>
+    <div class="blog-post-extra">
+        <b>Liang Yesheng · </b>
+        <span>23/11/21 05:01:56</span>
+    </div>
+    
+        <div class="blogging-tags-grid">
         
-            <div class="blogging-tags-grid">
+        <a href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/tags#fun" class="blogging-tag"><code>#fun</code></a>
         
-        <code style="color: var(--md-typeset-color)">#fun</code>
-        
-        <code style="color: var(--md-typeset-color)">#python</code>
+        <a href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/tags#python" class="blogging-tag"><code>#python</code></a>
         
     </div>
     
-            
-
         
-        <p class="blog-post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure...</p>
+
+    
+    <p class="blog-post-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure...
+    </p>
+    <hr />
+</div>
+
+                
+            
+                
+                
+                
+                
+
+                
+                
+                    
+                
+
+                
+                
+                    
+                
+                
+                <div class="blog-post">
+    <h3 class="blog-post-title">
+        <a class="link" href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/blog/blog2/">Blog 2</a>
+    </h3>
+    <div class="blog-post-extra">
+        <b>Liang Yesheng · </b>
+        <span>23/11/21 05:01:56</span>
     </div>
-</a>
-
-                
-            
-                
-                
-                
-                
-
-                
-                
-                    
-                
-
-                
-                
-                    
-                
-                
-                <a href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/blog/blog2/">
-    <div class="blog-override-post">
-        <h3 class="blog-post-title">Blog 2</h3>
-        <div class="blog-post-extra">
-            <b>Liang Yesheng · </b>
-            <span>23/11/21 05:01:56</span>
-        </div>
+    
+        <div class="blogging-tags-grid">
         
-            <div class="blogging-tags-grid">
-        
-        <code style="color: var(--md-typeset-color)">#python</code>
+        <a href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/tags#python" class="blogging-tag"><code>#python</code></a>
         
     </div>
     
-            
-
         
-        <p class="blog-post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure...</p>
+
+    
+    <p class="blog-post-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure...
+    </p>
+    <hr />
+</div>
+
+                
+            
+                
+                
+                
+                
+
+                
+                
+                    
+                
+
+                
+                
+                    
+                
+                
+                <div class="blog-post">
+    <h3 class="blog-post-title">
+        <a class="link" href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/blog/blog3/">Blog 3</a>
+    </h3>
+    <div class="blog-post-extra">
+        <b></b>
+        <span>01/01/21 00:00:00</span>
     </div>
-</a>
-
-                
-            
-                
-                
-                
-                
-
-                
-                
-                    
-                
-
-                
-                
-                    
-                
-                
-                <a href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/blog/blog3/">
-    <div class="blog-override-post">
-        <h3 class="blog-post-title">Blog 3</h3>
-        <div class="blog-post-extra">
-            <b></b>
-            <span>01/01/21 00:00:00</span>
-        </div>
+    
+        <div class="blogging-tags-grid">
         
-            <div class="blogging-tags-grid">
+        <a href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/tags#fun" class="blogging-tag"><code>#fun</code></a>
         
-        <code style="color: var(--md-typeset-color)">#fun</code>
-        
-        <code style="color: var(--md-typeset-color)">#mkdocs</code>
+        <a href="https://liang2kl.github.io/mkdocs-blogging-plugin-example/tags#mkdocs" class="blogging-tag"><code>#mkdocs</code></a>
         
     </div>
     
-            
-
         
-        <p class="blog-post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure...</p>
-    </div>
-</a>
+
+    
+    <p class="blog-post-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure...
+    </p>
+    <hr />
+</div>
 
                 
             
